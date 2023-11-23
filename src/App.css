@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0");
+@import "./style/tolist.css";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-container{
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.main-heading{
+  color: white;
+  margin-top: 1rem;
+  background-color: rgba(250, 247, 247, 0.185);
+  height: 6rem;
+  padding: 0.8rem;
+  line-height: 4rem;
+  border-radius: 0.9rem;
+}
+.input{
+  width: 40vw;
+  height: 10vh;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid white;
+  font-size: 2rem;
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+.main-heading-2{
+  font-size: 2.5rem;
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 0.1rem;
+  
+}
+.task-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  gap:1rem;
+  height: 100vh;
+  position: relative;
+}
+.time{
+  color: white;
+  font-size: 8rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.main-heading-3{
+  color: white;
+  font-size: 2rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main-heading-4{
+  color: white;
+  font-size: 1.8rem;
+  
+}
+.task-input{
+  width: 30vw;
+ 
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid white;
+  font-size: 1.5rem;
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+.task-list{
+  color: white;
+  font-size: 1.5rem;
+}
+.task-list-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.2rem;
+}
+#checkbox{
+  height: 1.2rem;
+  width:1.2rem;
+  background-color: transparent;
+}
+.task-list2{
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: line-through;
+}
+.remove-task{
+    cursor:pointer;
+    
+}
+.quote-container{
+  position: absolute;
+  bottom: 3.5rem;
+  width: 100vh;
+  right: 1.5rem;
+}
